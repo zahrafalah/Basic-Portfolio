@@ -11,6 +11,11 @@ header {
     overflow: auto;
     margi   
 }
+#bg {
+    width: 1024px;
+    margin: 0 auto;
+
+}
 
 nav {
     width: 1024px;
@@ -52,6 +57,7 @@ h2,h3 {
 
 .maincontainer {
     width: 960px; 
+    margin-top: 15px;
     
     
 }
@@ -138,6 +144,9 @@ li {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+form {
+    float: left;
+}
 
 input[type=text], select, textarea {
     width: 100%;
@@ -162,6 +171,13 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #275a57;
 }
-Message {
+textarea{
+    margin-bottom: 
     height: 200px;
+}
+
+.clearfix {
+    display: block;
+    content: "";
+    clear: both;
 }
