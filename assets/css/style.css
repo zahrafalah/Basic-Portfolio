@@ -1,15 +1,14 @@
 body {
-
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/fresh-snow/);
 }
 
 header {
     
-    background-color:#ebebeb;
+    background-color:#ffffff;
     border-bottom: solid 2px;
-    border-bottom-color: #777777
-    padding-lef; 
+    border-bottom-color: #cccccc;
     overflow: auto;
-    margi   
+    margin-bottom: 20px;
 }
 #bg {
     width: 1024px;
@@ -21,11 +20,12 @@ nav {
     width: 1024px;
     margin: 0 auto;
     width: 100px;
+    padding-right:10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-size: 18px #777777;
     float: right;
     width: 200px;
-    display: inline-block; 
     letter-spacing: normal;
 }
 
@@ -47,6 +47,7 @@ h2,h3 {
     font-size: 24px;
     padding-top: 15px;
     padding-bottom: 15px;
+    
 }
 
 .full {
@@ -56,14 +57,12 @@ h2,h3 {
 }
 
 .maincontainer {
-    width: 960px; 
-    margin-top: 15px;
-    
-    
+    width: 960px;
 }
 
 .container{
     font-size: 20px;
+    background-color: #ffffff;
     margin: auto;
     border: #dddddd solid 2px;
     width: 650px;
@@ -74,23 +73,23 @@ h2,h3 {
 
 h2 {
     font-weight: bolder;
-    margin-lef auto;
-    margin-righauto;
-    float: left;
     width: 600px;
     border-bottom: solid 2px;
-    border-bottom-color: #777777;
+    border-bottom-color: #dddddd;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 #bioimage {
-    fl;
+    float: left;
     width: 170px;
     height: 200px;
     padding-top:15px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 p {
-    float: left;
     line-height: 30px;
     padding-top: 15px;
     color: #777777; 
@@ -103,11 +102,14 @@ aside {
     width:270px;
     padding: 10px;
     border: #dddddd 2px solid;
+    text-align: center;
 }
 h3 {
     width: 200px;
+    font-weight: bolder;
     border-bottom: solid 2px;
-    border-bottom-color: #666;
+    border-bottom-color: #dddddd;
+    margin-left: 25px;
 }
 
 footer {
@@ -169,11 +171,33 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #275a57;
+    background-color: #1e4644;
 }
-textarea{
-    margin-bottom: 
-    height: 200px;
+
+#lab {
+    width:170px; height:200px;
+}
+#web {
+    width:170px; height:200px;
+}
+#book {
+    width:170px; height:200px;
+}
+.content {
+    background-color: white;
+    padding: 10px;
+}
+.column {
+    float: left;
+    width: 33%;
+}
+h4 {
+    background-color: #4aaaa5;
+    width: 150px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .clearfix {
